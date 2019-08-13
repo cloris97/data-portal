@@ -1,0 +1,126 @@
+:root {
+    --blue: #217bc5;
+    --orange: #f09020;
+    --steel: #616161;
+    --navy: #122c60;
+    --black: #1e1e1e;
+    --silver: #dedede;
+    --offwhite: #EEEEEE;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--navy);
+    padding: none;
+    margin: none;
+}
+
+a:active,
+a.focus {
+    color: var(--blue);
+    /* 2.3px */
+    border-bottom: 0.14375rem solid;
+    border-color: var(--blue);
+}
+
+a:hover {
+    color: var(--blue);
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 80px;
+    padding: 0 30px;
+    color: var(--navy);
+    box-shadow: 0 1px 4px 0 rgba(18, 44, 96, 0.3);
+    background-color: #ffffff;
+    width: 100%;
+}
+#home {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 20%;
+    margin-right: 4rem;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul {
+    width: 60%;
+}
+
+header li {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 5%;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+}
+
+header img {
+    width: 6.5rem;
+    height: auto;
+    margin-right: 5px;
+}
+
+header h1 {
+    font-weight: 600;
+    letter-spacing: -0.7px;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    margin-right: 5%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+/* main frame proportions */
+main {
+    display: grid;
+    grid-template-columns: minmax(15.5rem, 17%) 83%;
+    grid-template-rows: 3.5rem auto;
+    font-size: 1rem;
+    color: var(--steel);
+    background-color: var(--offwhite);
+}
+
+/* individual bars */
+.top-left,
+.top-right,
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 1px var(--silver);
+    font-weight: 600;
+    background-color: white;
+}
+
+.top-left {
+    border-right: none;
+}
+
+.left {
+    border-top: none;
+}
+
+/* icon */
+ul i {
+    padding-right: 1rem;
+}

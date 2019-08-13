@@ -1,0 +1,191 @@
+section#banner {
+    background-image: url('../img/innovation.svg');
+    background-color: var(--navy);
+    background-repeat: no-repeat;
+    height: 20rem;
+    background-size: 50% 130%;
+    background-position: 100% -40px;
+    position: relative;
+}
+
+table {
+    float: left;
+    margin: 1.5rem 0 0 10%;
+    background-color: var(--blue);
+    color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 0 10px 0 var(--black);
+}
+
+caption {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.24;
+    letter-spacing: -0.8px;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+th {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.file {
+    width: 300px;
+}
+
+.date {
+    width: 60px;
+    color: var(--silver);
+}
+
+/* main */
+main {
+    background-color: var(--offwhite);
+}
+
+.top-right ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+input {
+    border-radius: 8px;
+    box-shadow: inset 0 0 1px 0 var(--silver);
+    border: solid 1px var(--silver);
+    width: 3rem;
+    height: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.left {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+
+.left li {
+    padding: 20px 0;
+}
+
+.left a {
+    color: var(--steel);
+}
+
+.left a:hover {
+    color: var(--blue);
+}
+
+/* reports */
+#cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 0.5rem 1rem;
+}
+
+#cards a {
+    color: initial;
+}
+
+article {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 6px 0 var(--silver);
+    border: solid 1px var(--silver);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    text-align: center;
+    width: 19rem;
+    height: 23.5rem;
+    margin: 1rem;
+    padding: 0.5rem 0;
+}
+
+/* temp styling, waiting for more links */
+article a {
+    height: 23.5rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+article img {
+    align-self: center;
+    width: 99%;
+    margin: 1rem 0 0.5rem;
+}
+
+h3 {
+    margin: 5px 1rem 0;
+    font-weight: 700;
+}
+
+p {
+    margin: 10px 1rem;
+    font-weight: normal;
+    line-height: 1.2;
+    letter-spacing: 1.2;
+}
+
+.tag {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* clear section button */
+button {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: white;
+    text-align: center;
+    width: 12.5rem;
+    height: 3.125rem;
+    border-radius: 2rem;
+    box-shadow: 0 2px 3px 0 #8e8e93;
+    background-color: var(--orange);
+    position: fixed;
+    bottom: 2rem;
+    left: 52.5%;
+    z-index: 1;
+}
+
+/* icons */
+#banner i.fa-times {
+    color: white;
+    font-size: 2rem;
+    z-index: 2;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+}
+
+button i.fa-times {
+    font-size: 1rem;
+    padding-right: 1rem;
+    margin-top: 0.1rem;
+}
+
+.fa-link {
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+
+.tag img {
+    width: 20px;
+    padding-bottom: 6px;
+    margin-right: 0.5rem;
+}
